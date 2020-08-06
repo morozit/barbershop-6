@@ -1,4 +1,4 @@
-.service {
+.price-section {
     background-image: url('../images/price-and-service/price-overley.svg'),
      url('../images/price-and-service/price-bg.jpg');
     background-size:  cover;
@@ -16,7 +16,7 @@
         url('../images/price-and-service/price-bg.jpg');
     }
 }
-.container {
+.price-container {
     @extend %container;
     text-align: center;
 }
@@ -47,6 +47,11 @@
             margin-right: 20px;
             padding: 0;
             background-color:  rgba(157, 164, 189, 0.6);
+            
+            @media screen and (min-width: $mobile-max) {
+                min-width: 45px; 
+                max-width: 340px;
+                }
         }
 }
 
@@ -121,9 +126,13 @@
         content: " ";
         margin-top: 20px;
         padding: 0;
-        width: 80px;
+        // width: 80px;
         height: 1px;
         background: rgba(157, 164, 189, 0.12);
+        @media screen and (min-width: $mobile-max) {
+            min-width: 45px; 
+            max-width: 340px;
+            }
     }
 }
 
