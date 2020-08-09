@@ -37,24 +37,20 @@
       color: $accent-color;
     }
 
-    & .link {
-      color: $title-color;
-      transition: color $timing-animation;
-      &.line {
-        display: flex;
-        align-items: center;
-      }
-      &.line::before {
-        content: '';
-        display: inline-block;
-        width: 60px;
-        height: 1px;
-        border-radius: 2px;
-        margin-right: 40px;
-        margin-left: 0;
-        padding: 0;
-        background-color: $title-color;
-      }
+    &:first-child {
+      display: flex;
+      align-items: center;
+    }
+    &:first-child::before {
+      content: '';
+      display: inline-block;
+      width: 60px;
+      height: 1px;
+      border-radius: 2px;
+      margin-right: 40px;
+      margin-left: 0;
+      padding: 0;
+      background-color: $title-color;
     }
   }
 }
