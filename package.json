@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://morozit.github.io/parcel-project-template/",
+  "homepage": "https://morozit.github.io/barbershop-6/",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html",
-    "predeploy": "npm run build -- --public-url=/parcel-project-template/",
+    "predeploy": "npm run build -- --public-url=/barbershop-6/",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
