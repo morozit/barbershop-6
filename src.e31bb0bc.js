@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./..\\images\\service1\\mob-Services-and-prices.jpg":[["mob-Services-and-prices.965409fb.jpg","images/service1/mob-Services-and-prices.jpg"],"images/service1/mob-Services-and-prices.jpg"],"./..\\images\\service1\\tabl-Services-and-prices.jpg":[["tabl-Services-and-prices.07a97fec.jpg","images/service1/tabl-Services-and-prices.jpg"],"images/service1/tabl-Services-and-prices.jpg"],"./..\\images\\service1\\desk-Services-and-prices.jpg":[["desk-Services-and-prices.de2cfac1.jpg","images/service1/desk-Services-and-prices.jpg"],"images/service1/desk-Services-and-prices.jpg"],"F:\\github-goit\\parcel-project-template\\src\\images\\contacts\\mob-contacts.jpg":[["mob-contacts.a9326e9b.jpg","images/contacts/mob-contacts.jpg"],"images/contacts/mob-contacts.jpg"],"F:\\github-goit\\parcel-project-template\\src\\images\\contacts\\tabl-contacts.jpg":[["tabl-contacts.4398bdbd.jpg","images/contacts/tabl-contacts.jpg"],"images/contacts/tabl-contacts.jpg"],"F:\\github-goit\\parcel-project-template\\src\\images\\contacts\\desc-contacts.jpg":[["desc-contacts.969565c6.jpg","images/contacts/desc-contacts.jpg"],"images/contacts/desc-contacts.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 require("./sass/main.scss");
@@ -221,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49337" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64237" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
