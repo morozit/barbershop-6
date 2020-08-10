@@ -32,14 +32,10 @@
     margin-right: 40px;
   }
   &-list .item {
+    align-items: center;
     & .link:hover,
     & .link:focus {
       color: $accent-color;
-    }
-
-    &:first-child {
-      display: flex;
-      align-items: center;
     }
     &:first-child::before {
       content: '';
