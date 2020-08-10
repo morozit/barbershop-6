@@ -20,41 +20,39 @@
   &-label {
     color: $text-color-2;
     @media screen and (max-width: $mobile-max) {
-      margin-top: 33px;
+      margin-top: 30px;
     }
   }
 
   &-list {
     display: flex;
+    align-items: center;
+    @media screen and (max-width: $mobile-max) {
+      margin-bottom: 30px;
+    }
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 60px;
+      height: 1px;
+      border-radius: 2px;
+      margin-right: 40px;
+      margin-left: 0;
+      padding: 0;
+      background-color: $title-color;
+    }
   }
-
   &-list .item:not(:last-child) {
     margin-right: 40px;
+  }
+  &-list .link {
+    color: $title-color;
+    transition: color $timing-animation;
   }
   &-list .item {
     & .link:hover,
     & .link:focus {
       color: $accent-color;
-    }
-
-    & .link {
-      color: $title-color;
-      transition: color $timing-animation;
-      &.line {
-        display: flex;
-        align-items: center;
-      }
-      &.line::before {
-        content: '';
-        display: inline-block;
-        width: 60px;
-        height: 1px;
-        border-radius: 2px;
-        margin-right: 40px;
-        margin-left: 0;
-        padding: 0;
-        background-color: $title-color;
-      }
     }
   }
 }
