@@ -154,6 +154,7 @@
 
 .form-input {
   // TO DO: hover color of placeholder: white
+  padding-bottom: 8px;
   width: 100%;
 
   font-family: Open Sans;
@@ -224,10 +225,6 @@
   &-link {
     display: flex;
     align-items: center;
-    // flex-direction: row;
-    // @media screen and (min-width: $tablet-min) {
-    //   width: 270px;
-    // }
   }
 }
 
