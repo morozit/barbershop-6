@@ -16,16 +16,13 @@
   }
   &-subtitle {
     @extend %subtitle;
-    font-size: 11px;
     line-height: 1.9;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
     margin-bottom: 44px;
   }
   &-subtitle::before {
     background-color: $title-color;
     @media screen and (max-width: $mobile-max) {
-      margin-bottom: 20px;
+      margin-bottom: 23px;
     }
   }
 
@@ -47,18 +44,11 @@
     }
     @media screen and (min-width: $desktop) {
       flex-wrap: nowrap;
-      //margin-right: 30px;
     }
   }
 }
 
-/*.portfolio-list .item:not(:last-child) {
-  @media screen and (max-width: $mobile-max) {
-    margin-bottom: 30px;
-  }
-}*/
 .portfolio-list .item {
-  height: 360px;
   @media screen and (min-width: $tablet-min) {
     width: calc((100% - 2 * 30px) / 2);
     margin: 15px;
@@ -68,18 +58,8 @@
       margin-bottom: 30px;
     }
   }
-  /* @media screen and (min-width: $desktop) {
+  @media screen and (min-width: $desktop) {
     width: calc((100% - 8 * 15px) / 4);
     margin: 15px;
-  }*/
-}
-
-/*.portfolio-list .item {
-  @media screen and (min-width: $desktop) {
-    width: calc((100% - 4 * 30px) / 1);
-    margin: 15px;
   }
-}*/
-/*.subtitle-container {
-  position: relative;
-}*/
+}
