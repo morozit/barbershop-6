@@ -233,8 +233,10 @@
 
 .map-pin-svg {
   @media screen and (min-width: $tablet-min) {
-    padding-top: 3px;
-    align-items: flex-start;
+    // padding-top: 3px;
+    position: relative;
+    transform: translateY(-50%);
+    // align-self: flex-start;
   }
 }
 
