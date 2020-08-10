@@ -222,9 +222,14 @@
   }
   &-link {
     display: flex;
+    justify-content: center;
     align-items: center;
   }
 }
+
+// .address-item-link::before {
+//   background-color: url(/src/images/sprite.svg#map-pin);
+// }
 
 .icon-form {
   margin-right: 16px;
