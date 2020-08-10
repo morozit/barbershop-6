@@ -93,10 +93,10 @@
   }
 
   @media screen and (min-width: $tablet-min) and (max-width: $tablet-max) {
+    width: 50%;
     margin-right: 30px;
   }
   @media screen and (min-width: $desktop) {
-    width: 50%;
     margin-bottom: 70px;
   }
 }
@@ -129,6 +129,7 @@
   }
 }
 .form-flex-input {
+  margin-bottom: 44px;
   @media screen and (min-width: $tablet-min) {
     display: flex;
   }
@@ -198,12 +199,12 @@
   }
 }
 
-// .address {
-//   @media screen and (min-width: $tablet-min) {
-//     width: 290px;
-//   }
-//   // width: 330px;
-// }
+.address {
+  @media screen and (min-width: $tablet-min) {
+    width: 230px;
+  }
+  // width: 330px;
+}
 
 .address-item {
   &:not(:last-child) {
@@ -222,14 +223,20 @@
   }
   &-link {
     display: flex;
-    justify-content: center;
     align-items: center;
+    // flex-direction: row;
+    // @media screen and (min-width: $tablet-min) {
+    //   width: 270px;
+    // }
   }
 }
 
-// .address-item-link::before {
-//   background-color: url(/src/images/sprite.svg#map-pin);
-// }
+.map-pin-svg {
+  @media screen and (min-width: $tablet-min) {
+    padding-top: 3px;
+    align-items: flex-start;
+  }
+}
 
 .icon-form {
   margin-right: 16px;
@@ -239,26 +246,29 @@
   text-decoration: underline;
 }
 
-.massage {
-  // TO DO: Висоту як в макеті
-  @media screen and (min-width: $tablet-min) {
-    // rows: 10;
-  }
+// .massage {
+//   // TO DO: Висоту як в макеті
+//   @media screen and (min-width: $tablet-min) {
+//     // rows: 10;
+//   }
 
-  @media screen and (min-width: $desktop) {
-    // rows: 20;
-  }
-}
+//   @media screen and (min-width: $desktop) {
+//     // rows: 20;
+//   }
+// }
 
 .working-time-сontainer {
   // padding-bottom: 84px;
-  @media screen and (min-width: $desktop) {
+  @media screen and (min-width: $tablet-min) {
     width: 50%;
   }
   // @extend %container;
 }
 
 .working-time-title {
+  display: flex;
+  align-items: center;
+
   margin: 0;
   margin-bottom: 20px;
   font-family: Open Sans;
