@@ -8,7 +8,7 @@
       padding-top: 84px;
       padding-bottom: 84px;
     }
-    @media screen and (min-width: $tablet-min) {
+    @media screen and (min-width: $tablet-min) and (max-width: $tablet-max) {
       padding: 100px 159px;
     }
     @media screen and (min-width: $desktop) {
