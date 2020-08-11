@@ -4,4 +4,4 @@ var e;!function(t,i){"object"==typeof exports&&"object"==typeof module?module.ex
 },{}],"uegD":[function(require,module,exports) {
 "use strict";var e=c(require("siema"));function c(e){return e&&e.__esModule?e:{default:e}}var i=new e.default,t={indicators:Array.from(document.querySelectorAll(".image-number"))},n=function(){return t.indicators.findIndex(function(e){return e.classList.contains("is-check")})};document.querySelector(".prev").addEventListener("click",function(){i.prev();var e=n();0!==e&&(t.indicators[e].classList.remove("is-check"),t.indicators[e-1].classList.add("is-check"))}),document.querySelector(".next").addEventListener("click",function(){i.next();var e=n();e!==t.indicators.length-1&&(t.indicators[e].classList.remove("is-check"),t.indicators[e+1].classList.add("is-check"))});
 },{"siema":"gVZh"}]},{},["uegD"], null)
-//# sourceMappingURL=/barbershop-6/siema.81ec1930.js.map
+//# sourceMappingURL=/barbershop-project-6/siema.81ec1930.js.map
